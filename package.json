@@ -1,0 +1,12 @@
+{
+  "name": "simple_server",
+  "version": "1.0.0",
+  "description": "a simple node server",
+  "license": "ISC",
+  "author": "Darcey Mckelvey",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "node --watch server.js"
+  }
+}
