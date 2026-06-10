@@ -1,4 +1,5 @@
-import express from 'express';
+// const express = require('express'); // commonjs
+import express from 'express';  // module
 const app = express();
 const port = 3000;
 
