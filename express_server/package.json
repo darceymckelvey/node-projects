@@ -1,0 +1,15 @@
+{
+  "name": "express_server",
+  "version": "1.0.0",
+  "description": "simple express server",
+  "license": "ISC",
+  "author": "Darcey Mckelvey",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
