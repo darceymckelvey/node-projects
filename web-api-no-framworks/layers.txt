@@ -1,0 +1,19 @@
+N-Layers
+
+database
+    - a file to store all application data
+
+src - all source code
+    - entities - object mappings
+    - factories - instance generators
+    - repositories - data entry
+    - routes -communication between the routes and repositories layer ( business layer )
+    - util - shared code
+    - handler - communication between routes and server
+
+tests - all automated test suites
+    - integration tests - testing on the user point of view, E2E test
+
+    - unit tests
+      all tests that must run without any external connections such as
+      databases, external APIs and for this test the filesystem
